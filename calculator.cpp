@@ -1,5 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+long long addition(long long number1, long long number2);
+
 int main(){
     long long number1, number2;
     long long result;
@@ -15,4 +18,8 @@ int main(){
         case '*': cout<<"The output is : "<<multiplication(number1,number2)<<endl;
         case '/': cout<<"The output is : "<<division(number1,number2)<<endl;
     }
+}
+
+long long addition(long long number1, long long number2){
+        return number1 + number2;
 }
