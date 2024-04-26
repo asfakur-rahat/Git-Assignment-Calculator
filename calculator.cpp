@@ -2,6 +2,7 @@
 using namespace std;
 
 long long addition(long long number1, long long number2);
+long long subtraction(long long number1, long long number2);
 
 long long division(long long number1,long long number2);
 
@@ -26,6 +27,11 @@ long long addition(long long number1, long long number2){
         return number1 + number2;
 }
 
+
+long long subtraction(long long number1, long long number2){
+    return number1 - number2;
+}
+
 long long multiplication(long long number1,long long number2){
     
     return number1*number2;
@@ -38,3 +44,4 @@ long long division(long long number1,long long number2){
     }
     return number1/number2;
 }
+
