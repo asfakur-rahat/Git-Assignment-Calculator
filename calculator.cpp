@@ -3,6 +3,8 @@ using namespace std;
 
 long long addition(long long number1, long long number2);
 
+long long division(long long number1,long long number2);
+
 int main(){
     long long number1, number2;
     long long result;
@@ -23,7 +25,16 @@ int main(){
 long long addition(long long number1, long long number2){
         return number1 + number2;
 }
+
 long long multiplication(long long number1,long long number2){
     
     return number1*number2;
+}
+
+long long division(long long number1,long long number2){
+    if(number2==0){
+        cout<<"Invalid Input"<<endl;
+        return -1;
+    }
+    return number1/number2;
 }
