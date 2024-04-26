@@ -23,3 +23,6 @@ int main(){
 long long addition(long long number1, long long number2){
         return number1 + number2;
 }
+long long multiplication(long long number1,long long number2){
+    return number1*number2;
+}
